@@ -1,0 +1,1 @@
+RS.Application().ready(function(){$(".filter_top").find(".filter_top__box").each(function(){$(this).children(".filter_top__scroll").scrollbar({showArrows:!0,scrollx:$(this).find(".filter_top__nav"),scrollStep:350})})});

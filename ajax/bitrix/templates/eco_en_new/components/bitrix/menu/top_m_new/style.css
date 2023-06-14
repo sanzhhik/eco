@@ -1,0 +1,77 @@
+div.menu_root {
+ height:31px;
+ width:100%;
+ position:relative;
+  background:#fff;
+}
+
+div.menu_sub {
+ position:absolute;
+ left:0;
+ top:31px;
+ width:100%;
+ background:#fff;
+ color:#fff;
+ height:31px;
+}
+
+td.root-item {
+ height:31px;
+ background:#fff;
+ vertical-align:middle;
+ text-align:center;
+}
+td.root-item a {
+ font-size:18px;
+ font-family:Arial;
+ color:#333333;
+ text-decoration:none;
+ text-transform:uppercase;
+}
+td.root-item-sel {
+ height:31px;
+ background:#85b1d9;
+ vertical-align:middle;
+ text-align:center;
+}
+td.root-item-sel a {
+ font-size:16px;
+ font-family:Arial;
+ color:#ffffff;
+ text-decoration:none;
+ text-transform:uppercase;
+}
+
+td.item {
+ height:31px;
+ background:#85b1d9;
+ vertical-align:middle;
+ text-align:center;
+}
+td.item a {
+ font-size:16px;
+ font-family:Arial;
+ color:#edebd3;
+ text-decoration:none;
+ text-transform:none;
+}
+td.item-sel {
+ height:31px;
+ background:#85b1d9;
+ vertical-align:middle;
+ text-align:center;
+}
+td.item-sel a, td.item a:hover {
+ font-size:16px;
+ font-family:Arial;
+ color:#edebd3;
+ text-decoration:underline;
+ text-transform:none;
+}
+div.menu_root.stickytop {
+    position:fixed;
+    top:0;
+    width: 100%; 
+    background:#fff;
+    z-index: 9999;
+}

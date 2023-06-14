@@ -1,0 +1,41 @@
+.menu_selected  {
+	font-weight:bold;
+}
+
+
+@media (min-width: 768px) {
+	
+	.b-horizontal-menu__nav {
+		white-space: normal;
+	}
+	
+	.b-horizontal-menu__nav > li {
+		float: left;
+		display: block;
+	}
+	
+	.navbar-default .navbar-nav>li>a {
+		display: block;
+		 
+		top: -1px;
+		max-width: 200px;
+		height: 60px;
+		text-align: center;
+		padding-top: 9px;
+		padding-bottom: 9px;		
+		padding-left: 16px;
+		padding-right: 16px;
+		
+  display: flex;
+  justify-content: center;
+  align-items: center;		
+		
+		/*
+		position: absolute;
+		top: 50%;
+		margin-top: -2em; 
+		*/
+  
+	}
+	
+}

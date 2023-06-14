@@ -1,0 +1,1 @@
+$(document).ready(function(){$(".js-about-company").waypoint(function(t){$(this.element).find(".js-about-company__number").each(function(t,n){var e=$(n),a=e.data("number");$.isNumeric(a)&&e.animate({count:e.data("number")},{duration:2e3,easing:"swing",step:function(t){e.text(BX.util.number_format(Math.ceil(t),"",""," "))}})}),this.destroy()},{offset:"100%"})});

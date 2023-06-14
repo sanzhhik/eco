@@ -1,0 +1,1 @@
+window.RS=window.RS||{},RS.loadMore=function(e){return function(r,n,t,a){var o=e.Deferred();a=a||!1;return(t=t||{}).is_ajax="Y",e.get({url:r,data:t,dataType:"html"}).done(function(r){a?e(n).html(r):e(n).append(r),o.resolve()}).fail(o.reject),o.promise()}}(jQuery);
